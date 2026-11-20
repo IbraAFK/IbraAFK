@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 300" width="120" height="300" role="img" aria-label="ToothFairy: the specimens">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#66737f"/><stop offset=".38" stop-color="#e3e9ee"/>
+      <stop offset=".6" stop-color="#aeb9c3"/><stop offset="1" stop-color="#5b6772"/>
+    </linearGradient>
+    <linearGradient id="tray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2830"/><stop offset="1" stop-color="#161d24"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9f3f0"/><stop offset=".5" stop-color="#7fb9b4"/><stop offset="1" stop-color="#2f5f5d"/>
+    </linearGradient>
+    <pattern id="gauze" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0H5M0 0V5" stroke="#aab5c0" stroke-width=".7"/>
+    </pattern>
+    <filter id="drop" x="-60%" y="-10%" width="220%" height="125%">
+      <feDropShadow dx="3" dy="4" stdDeviation="3" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <g id="rod">
+      <path d="M-3.500 96H3.500L4 186Q0 192-4 186Z" fill="url(#steel)"/>
+      <path d="M-3.500 112H3.500M-3.500 118H3.500M-3.500 124H3.500M-3.500 130H3.500M-3.500 136H3.500M-3.500 142H3.500M-3.500 148H3.500" stroke="#4b5761" stroke-width="1.2"/>
+    </g>
+  
+    <radialGradient id="lamp" cx=".5" cy=".35" r=".7">
+      <stop offset="0" stop-color="#5ecfc6" stop-opacity=".22"/><stop offset="1" stop-color="#5ecfc6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .ink{fill:#e7ebef}.faint{fill:#616b75}.teal{fill:#5ecfc6}
+    .lamp{opacity:0;animation:lamp 10.5s linear 9.0s infinite}
+    .glint{animation:glint 6s ease-in-out infinite}
+    @keyframes lamp{0%{opacity:0}5%{opacity:1}15%,100%{opacity:0}}
+    @keyframes glint{0%,70%,100%{opacity:0}80%{opacity:.9}}
+    @media (prefers-reduced-motion:reduce){.lamp,.glint{animation:none}}
+  </style>
+  <rect x="1.500" y=".500" width="117" height="299" rx="10" fill="#0c1116" stroke="#1e262e"/>
+  <rect x="8" y="8" width="104" height="226" rx="12" fill="url(#tray)" stroke="#3b4955" stroke-width="1.500"/>
+  <rect x="13" y="13" width="94" height="216" rx="8" fill="none" stroke="#0a0e12" stroke-width="2"/>
+  <rect class="lamp" x="8" y="8" width="104" height="226" rx="12" fill="url(#lamp)" stroke="#5ecfc6" stroke-width="1.600"/>
+  <path d="M97 27L104 20M98.500 20H104V25.500" fill="none" stroke="#616b75" stroke-width="1.400" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="lamp" d="M97 27L104 20M98.500 20H104V25.500" fill="none" stroke="#5ecfc6" stroke-width="1.400" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#drop)"><g transform="translate(60 26)">
+    <rect x="-34" y="82" width="68" height="68" rx="3" fill="#dfe6ec" transform="rotate(-8 0 116)"/>
+      <rect x="-34" y="82" width="68" height="68" rx="3" fill="url(#gauze)" transform="rotate(-8 0 116)"/>
+      <g transform="translate(-2 86) rotate(14) scale(.9)">
+        <path d="M-19 30C-24 24-25 12-21 5C-18 0-13-1-10 3C-7 6-4 6-1 3C2-1 8-1 11 3C13 6 15 5 17 3C20 0 23 4 23 10C24 18 22 25 19 30C20 38 21 50 19 64C18 74 15 81 12 81C9 81 8 72 7 62C6 50 4 42 0 40C-4 42-6 52-7 64C-8 76-11 84-14 84C-18 84-20 72-21 60C-22 48-21 38-19 30Z" fill="#d9cdb4" stroke="#6b6250" stroke-width="1"/>
+        <path d="M-19 30C-24 24-25 12-21 5C-18 0-13-1-10 3C-7 6-4 6-1 3C2-1 8-1 11 3C13 6 15 5 17 3C20 0 23 4 23 10C24 18 22 25 19 30C10 27-10 27-19 30Z" fill="#f6f3ea" stroke="#6b6250" stroke-width="1"/>
+        <path d="M-10 7C-6 10-3 10-1 7M11 7C13 10 15 9 17 7" fill="none" stroke="#b9ad93" stroke-width="1"/>
+      </g>
+  </g></g>
+  <g class="mono" text-anchor="middle">
+    <text x="60" y="262" class="ink" font-size="11">ToothFairy</text>
+    <text x="60" y="279" class="faint" font-size="9.500">the specimens</text>
+  </g>
+</svg>

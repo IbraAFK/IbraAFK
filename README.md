@@ -5,9 +5,9 @@
 </div>
 
 <p align="center">
-  <a href="https://candidlabs.org"><img src="https://img.shields.io/badge/CANDID-candidlabs.org-0d5c63?style=for-the-badge" alt="CANDID: candidlabs.org"></a>
-  <a href="mailto:Ibrahim@candidlabs.org"><img src="https://img.shields.io/badge/book%20an%20appointment-email-16302f?style=for-the-badge" alt="Email me"></a>
-  <a href="https://www.linkedin.com/in/ibrahim-alroudhan-a3b733216/"><img src="https://img.shields.io/badge/referrals-LinkedIn-16302f?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://candidlabs.org"><img src="https://img.shields.io/badge/CANDID-candidlabs.org-0d5c63?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIgLjUpIHNjYWxlKC4yMTUpIiBkPSJNLTE5IDMwQy0yNCAyNC0yNSAxMi0yMSA1Qy0xOCAwLTEzLTEtMTAgM0MtNyA2LTQgNi0xIDNDMi0xIDgtMSAxMSAzQzEzIDYgMTUgNSAxNyAzQzIwIDAgMjMgNCAyMyAxMEMyNCAxOCAyMiAyNSAxOSAzMEMyMCAzOCAyMSA1MCAxOSA2NEMxOCA3NCAxNSA4MSAxMiA4MUM5IDgxIDggNzIgNyA2MkM2IDUwIDQgNDIgMCA0MEMtNCA0Mi02IDUyLTcgNjRDLTggNzYtMTEgODQtMTQgODRDLTE4IDg0LTIwIDcyLTIxIDYwQy0yMiA0OC0yMSAzOC0xOSAzMFoiLz48cGF0aCBkPSJNMiAyM0M4IDIwLjYwMCAxNiAyMC42MDAgMjIgMjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjkwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8%2BPC9zdmc%2B" alt="CANDID: candidlabs.org"></a>
+  <a href="mailto:Ibrahim@candidlabs.org"><img src="https://img.shields.io/badge/book%20an%20appointment-email-16302f?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMi41MDAgNC41MDBoMTlhMS41MDAgMS41MDAgMCAwIDEgMS41MDAgMS41MDB2MTJhMS41MDAgMS41MDAgMCAwIDEtMS41MDAgMS41MDBoLTE5QTEuNTAwIDEuNTAwIDAgMCAxIDEgMThWNmExLjUwMCAxLjUwMCAwIDAgMSAxLjUwMC0xLjUwMHpNMy42MDAgNy4yMDB2Mi4zMDBsOC40MDAgNS43MDAgOC40MDAtNS43MDBWNy4yMDBMMTIgMTIuOTAweiIvPjwvc3ZnPg%3D%3D" alt="Email me"></a>
+  <a href="https://www.linkedin.com/in/ibrahim-alroudhan-a3b733216/"><img src="https://img.shields.io/badge/referrals-LinkedIn-16302f?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1MCAzLjM3MC0xLjg1MCAzLjYwMSAwIDQuMjY3IDIuMzcwIDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2EyLjA2MiAyLjA2MiAwIDAgMS0yLjA2My0yLjA2NSAyLjA2NCAyLjA2NCAwIDEgMSAyLjA2MyAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMjAwIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yMDAgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn"></a>
   <img src="https://komarev.com/ghpvc/?username=ibrahimalroudhan-cmyk&label=waiting%20room&color=0d5c63&style=for-the-badge" alt="Profile views">
 </p>
 
@@ -43,12 +43,22 @@ It's research software, not a medical device. The project page has the evidence 
 
 ## 🧰 On the tray
 
-<img src="assets/tray.svg" width="100%" alt="A surgical tray of instruments, each labelled with an open-source project: nnU-Net, MONAI, 3D Slicer, SimpleITK, pydicom, TotalSegmentator and ToothFairy.">
+<p align="center"><a href="https://github.com/MIC-DKFZ/nnUNet" title="nnU-Net: does the cutting"><img src="assets/tray/nnunet.svg" width="14%" alt="nnU-Net: does the cutting"></a><a href="https://github.com/Project-MONAI/MONAI" title="MONAI: delivers the dose"><img src="assets/tray/monai.svg" width="14%" alt="MONAI: delivers the dose"></a><a href="https://github.com/Slicer/Slicer" title="3D Slicer: for a good look"><img src="assets/tray/slicer.svg" width="14%" alt="3D Slicer: for a good look"></a><a href="https://github.com/SimpleITK/SimpleITK" title="SimpleITK: heavy lifting"><img src="assets/tray/simpleitk.svg" width="14%" alt="SimpleITK: heavy lifting"></a><a href="https://github.com/pydicom/pydicom" title="pydicom: pokes at tags"><img src="assets/tray/pydicom.svg" width="14%" alt="pydicom: pokes at tags"></a><a href="https://github.com/wasserth/TotalSegmentator" title="TotalSegmentator: grabs everything"><img src="assets/tray/totalsegmentator.svg" width="14%" alt="TotalSegmentator: grabs everything"></a><a href="https://github.com/AImageLab-zip/ToothFairy" title="ToothFairy: the specimens"><img src="assets/tray/toothfairy.svg" width="14%" alt="ToothFairy: the specimens"></a></p>
 
-I lean a lot on other people's great work: [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) · [MONAI](https://github.com/Project-MONAI/MONAI) · [3D Slicer](https://github.com/Slicer/Slicer) · [SimpleITK](https://github.com/SimpleITK/SimpleITK) · [pydicom](https://github.com/pydicom/pydicom) · [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) · [ToothFairy](https://github.com/AImageLab-zip/ToothFairy)
+<sub>Tray 01, sterile until proven otherwise. Count in: 7, count out: 7. I lean a lot on other people's great work, and every instrument takes you to it.</sub>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,ts,js,swift,lua,html,css,git,githubactions,obsidian&perline=11" alt="Python, PyTorch, TypeScript, JavaScript, Swift, Lua, HTML, CSS, Git, GitHub Actions, Obsidian">
+  <a href="https://github.com/python/cpython" title="Python"><img src="https://skillicons.dev/icons?i=py" width="44" height="44" alt="Python"></a>
+  <a href="https://github.com/pytorch/pytorch" title="PyTorch"><img src="https://skillicons.dev/icons?i=pytorch" width="44" height="44" alt="PyTorch"></a>
+  <a href="https://github.com/microsoft/TypeScript" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" width="44" height="44" alt="TypeScript"></a>
+  <a href="https://github.com/tc39/ecma262" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" width="44" height="44" alt="JavaScript"></a>
+  <a href="https://github.com/swiftlang/swift" title="Swift"><img src="https://skillicons.dev/icons?i=swift" width="44" height="44" alt="Swift"></a>
+  <a href="https://github.com/lua/lua" title="Lua"><img src="https://skillicons.dev/icons?i=lua" width="44" height="44" alt="Lua"></a>
+  <a href="https://github.com/whatwg/html" title="HTML"><img src="https://skillicons.dev/icons?i=html" width="44" height="44" alt="HTML"></a>
+  <a href="https://github.com/w3c/csswg-drafts" title="CSS"><img src="https://skillicons.dev/icons?i=css" width="44" height="44" alt="CSS"></a>
+  <a href="https://github.com/git/git" title="Git"><img src="https://skillicons.dev/icons?i=git" width="44" height="44" alt="Git"></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://skillicons.dev/icons?i=githubactions" width="44" height="44" alt="GitHub Actions"></a>
+  <a href="https://github.com/obsidianmd/obsidian-releases" title="Obsidian"><img src="https://skillicons.dev/icons?i=obsidian" width="44" height="44" alt="Obsidian"></a>
 </p>
 
 ## 📚 Dental history
