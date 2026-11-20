@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" width="840" height="380" role="img" aria-labelledby="t d">
-  <title id="t">IbraWasHere: oral surgery registrar who writes code about wisdom teeth</title>
+  <title id="t">IbraAFK: oral surgery registrar who writes code about wisdom teeth</title>
   <desc id="d">A stylised dental scan. An impacted lower wisdom tooth leans on its neighbour, the nerve canal runs beneath it, and a caliper measures the gap between them: 0.4 millimetres, which is far too close for comfort.</desc>
   <defs>
     <linearGradient id="tooth" x1="0" y1="0" x2="0" y2="1">
@@ -74,9 +74,9 @@
   <rect x=".5" y=".5" width="839" height="379" rx="14" fill="#0c1116" stroke="#1e262e"/>
 
   <!-- left: who -->
-  <text x="36" y="54" class="mono teal" font-size="11" letter-spacing="1.6">PATIENT ID · WASHERE^IBRA</text>
+  <text x="36" y="54" class="mono teal" font-size="11" letter-spacing="1.6">PATIENT ID · AFK^IBRA</text>
   <text x="34" y="112" class="sans ink" font-size="50" font-weight="700" letter-spacing="-1">Ibra</text>
-  <text x="34" y="164" class="sans teal" font-size="50" font-weight="700" letter-spacing="-1">WasHere</text>
+  <text x="34" y="164" class="sans teal" font-size="50" font-weight="700" letter-spacing="-1">AFK</text>
   <text x="36" y="196" class="mono dim" font-size="13">oral surgery registrar · UCL Eastman · London</text>
 
   <text x="36" y="236" class="mono teal" font-size="15">›</text>
