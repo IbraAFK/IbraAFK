@@ -1,0 +1,47 @@
+name: Vitals
+
+# Redraws the live profile images every morning and publishes them to the
+# "vitals" branch, which the README points at. Main stays hand-written.
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/vitals.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vitals
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Draw
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/build.py dist
+
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          name="$(git log -1 --format=%an)"
+          email="$(git log -1 --format=%ae)"
+          cd dist
+          git init -q -b vitals
+          git config user.name "$name"
+          git config user.email "$email"
+          git add -A
+          git commit -q -m "Vitals $(date -u +%F)"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" vitals

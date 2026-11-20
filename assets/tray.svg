@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 330" width="840" height="330" role="img" aria-labelledby="t d">
+  <title id="t">The instrument tray: the open-source tools this work is built on</title>
+  <desc id="d">A steel surgical tray holding seven instruments, each labelled with an open-source project: a scalpel for nnU-Net, a syringe for MONAI, a mouth mirror for 3D Slicer, an elevator for SimpleITK, a probe for pydicom, tweezers for TotalSegmentator, and an extracted molar on gauze for ToothFairy.</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#66737f"/><stop offset=".38" stop-color="#e3e9ee"/>
+      <stop offset=".6" stop-color="#aeb9c3"/><stop offset="1" stop-color="#5b6772"/>
+    </linearGradient>
+    <linearGradient id="tray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2830"/><stop offset="1" stop-color="#161d24"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9f3f0"/><stop offset=".5" stop-color="#7fb9b4"/><stop offset="1" stop-color="#2f5f5d"/>
+    </linearGradient>
+    <pattern id="gauze" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0H5M0 0V5" stroke="#aab5c0" stroke-width=".7"/>
+    </pattern>
+    <filter id="drop" x="-60%" y="-10%" width="220%" height="125%">
+      <feDropShadow dx="3" dy="4" stdDeviation="3" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <g id="rod">
+      <path d="M-3.500 96H3.500L4 186Q0 192-4 186Z" fill="url(#steel)"/>
+      <path d="M-3.500 112H3.500M-3.500 118H3.500M-3.500 124H3.500M-3.500 130H3.500M-3.500 136H3.500M-3.500 142H3.500M-3.500 148H3.500" stroke="#4b5761" stroke-width="1.2"/>
+    </g>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .ink{fill:#e7ebef}.dim{fill:#8d98a3}.faint{fill:#616b75}.teal{fill:#5ecfc6}
+    .glint{animation:glint 6s ease-in-out infinite}
+    @keyframes glint{0%,70%,100%{opacity:0}80%{opacity:.9}}
+    @media (prefers-reduced-motion:reduce){.glint{animation:none}}
+  </style>
+
+  <rect x=".5" y=".5" width="839" height="329" rx="12" fill="#0c1116" stroke="#1e262e"/>
+  <text x="24" y="29" class="mono dim" font-size="10" letter-spacing="1.1">TRAY 01 · STERILE UNTIL PROVEN OTHERWISE</text>
+  <text x="816" y="29" text-anchor="end" class="mono dim" font-size="10.500">count in: <tspan class="teal">7</tspan> · count out: <tspan class="teal">7</tspan></text>
+
+  <!-- the tray -->
+  <rect x="18" y="44" width="804" height="222" rx="18" fill="url(#tray)" stroke="#3b4955" stroke-width="1.5"/>
+  <rect x="26" y="52" width="788" height="206" rx="12" fill="none" stroke="#0a0e12" stroke-width="2"/>
+  <rect x="27.500" y="53.500" width="785" height="203" rx="11" fill="none" stroke="#2c3741" stroke-width="1"/>
+
+  <g filter="url(#drop)">
+    <!-- scalpel: no. 3 handle, no. 15 blade -->
+    <g transform="translate(80 60)">
+      <path d="M-4.500 74H4.500L5 184Q0 191-5 184Z" fill="url(#steel)"/>
+      <path d="M-4.500 84H4.500M-4.500 89H4.500M-4.500 94H4.500M-4.500 99H4.500M-4.500 104H4.500" stroke="#4b5761" stroke-width="1.2"/>
+      <path d="M-2.500 60H2.500L4.500 74H-4.500Z" fill="url(#steel)"/>
+      <path d="M-3 62V16C-3 10 0 6 2 9C6 14 7.500 24 6.500 34L4 62Z" fill="#eef2f5" stroke="#7d8a96" stroke-width=".8"/>
+      <rect x="-.800" y="38" width="2.400" height="16" rx="1.200" fill="#1a222a"/>
+      <path class="glint" d="M5 14L6.500 30" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <!-- aspirating syringe -->
+    <g transform="translate(193 60)">
+      <path d="M0 12V62" stroke="#dfe6ec" stroke-width="1.400" stroke-linecap="round"/>
+      <rect x="-3.500" y="60" width="7" height="10" rx="1.500" fill="url(#steel)"/>
+      <rect x="-7" y="70" width="14" height="68" rx="3" fill="url(#steel)"/>
+      <rect x="-3.500" y="78" width="7" height="50" rx="2" fill="url(#glass)" opacity=".85"/>
+      <rect x="-3.500" y="104" width="7" height="6" fill="#33414c"/>
+      <rect x="-18" y="137" width="36" height="5.500" rx="2.700" fill="url(#steel)"/>
+      <rect x="-1.800" y="142" width="3.600" height="26" fill="url(#steel)"/>
+      <circle cx="0" cy="178" r="10" fill="none" stroke="#c3ccd4" stroke-width="3.200"/>
+    </g>
+    <!-- mouth mirror -->
+    <g transform="translate(306 60)">
+      <use href="#rod"/>
+      <path d="M0 96L0 62L5 40" fill="none" stroke="#c3ccd4" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="8" cy="24" r="16" fill="url(#steel)"/>
+      <circle cx="8" cy="24" r="13" fill="url(#glass)"/>
+      <path d="M0 18C3 12 9 10 14 12" fill="none" stroke="#fff" stroke-width="1.600" stroke-linecap="round" opacity=".7"/>
+    </g>
+    <!-- Coupland elevator -->
+    <g transform="translate(419 60)">
+      <path d="M-3 110C-12 118-14 140-12 160C-10 180-6 190 0 190C6 190 10 180 12 160C14 140 12 118 3 110Z" fill="url(#steel)"/>
+      <path d="M-9 132H9M-10 140H10M-10 148H10M-9 156H9" stroke="#4b5761" stroke-width="1.200"/>
+      <path d="M-2.600 110L-2.200 40H2.200L2.600 110Z" fill="url(#steel)"/>
+      <path d="M-2.200 40C-4 30-4 18-2.500 12Q0 8 2.500 12C4 18 4 30 2.200 40Z" fill="#dfe6ec" stroke="#7d8a96" stroke-width=".8"/>
+      <path d="M0 14V36" stroke="#66737f" stroke-width="1.400" stroke-linecap="round"/>
+    </g>
+    <!-- probe -->
+    <g transform="translate(532 60)">
+      <use href="#rod"/>
+      <path d="M0 96V46C0 26 19 22 21 38C21.800 44 19 48 15.500 49.500" fill="none" stroke="#c3ccd4" stroke-width="2.200" stroke-linecap="round"/>
+    </g>
+    <!-- college tweezers -->
+    <g transform="translate(645 60)">
+      <path d="M-1 190L-6 74L8 20" fill="none" stroke="url(#steel)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1 190L5 76L9.500 20" fill="none" stroke="#b9c3cc" stroke-width="3.400" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-4.500 120L3.500 120M-4 128L3.200 128M-3.600 136L3 136" stroke="#4b5761" stroke-width="1.200"/>
+    </g>
+    <!-- the specimen -->
+    <g transform="translate(758 60)">
+      <rect x="-34" y="82" width="68" height="68" rx="3" fill="#dfe6ec" transform="rotate(-8 0 116)"/>
+      <rect x="-34" y="82" width="68" height="68" rx="3" fill="url(#gauze)" transform="rotate(-8 0 116)"/>
+      <g transform="translate(-2 86) rotate(14) scale(.9)">
+        <path d="M-19 30C-24 24-25 12-21 5C-18 0-13-1-10 3C-7 6-4 6-1 3C2-1 8-1 11 3C13 6 15 5 17 3C20 0 23 4 23 10C24 18 22 25 19 30C20 38 21 50 19 64C18 74 15 81 12 81C9 81 8 72 7 62C6 50 4 42 0 40C-4 42-6 52-7 64C-8 76-11 84-14 84C-18 84-20 72-21 60C-22 48-21 38-19 30Z" fill="#d9cdb4" stroke="#6b6250" stroke-width="1"/>
+        <path d="M-19 30C-24 24-25 12-21 5C-18 0-13-1-10 3C-7 6-4 6-1 3C2-1 8-1 11 3C13 6 15 5 17 3C20 0 23 4 23 10C24 18 22 25 19 30C10 27-10 27-19 30Z" fill="#f6f3ea" stroke="#6b6250" stroke-width="1"/>
+        <path d="M-10 7C-6 10-3 10-1 7M11 7C13 10 15 9 17 7" fill="none" stroke="#b9ad93" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+
+  <g class="mono" text-anchor="middle">
+    <g class="ink" font-size="11">
+      <text x="80" y="288">nnU-Net</text><text x="193" y="288">MONAI</text><text x="306" y="288">3D Slicer</text>
+      <text x="419" y="288">SimpleITK</text><text x="532" y="288">pydicom</text>
+      <text x="645" y="288" textLength="100" lengthAdjust="spacingAndGlyphs">TotalSegmentator</text><text x="758" y="288">ToothFairy</text>
+    </g>
+    <g class="faint" font-size="9.500">
+      <text x="80" y="304">does the cutting</text><text x="193" y="304">delivers the dose</text><text x="306" y="304">for a good look</text>
+      <text x="419" y="304">heavy lifting</text><text x="532" y="304">pokes at tags</text>
+      <text x="645" y="304">grabs everything</text><text x="758" y="304">the specimens</text>
+    </g>
+  </g>
+</svg>
