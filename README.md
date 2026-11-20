@@ -8,7 +8,7 @@
   <a href="https://candidlabs.org"><img src="https://img.shields.io/badge/CANDID-candidlabs.org-0d5c63?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIgLjUpIHNjYWxlKC4yMTUpIiBkPSJNLTE5IDMwQy0yNCAyNC0yNSAxMi0yMSA1Qy0xOCAwLTEzLTEtMTAgM0MtNyA2LTQgNi0xIDNDMi0xIDgtMSAxMSAzQzEzIDYgMTUgNSAxNyAzQzIwIDAgMjMgNCAyMyAxMEMyNCAxOCAyMiAyNSAxOSAzMEMyMCAzOCAyMSA1MCAxOSA2NEMxOCA3NCAxNSA4MSAxMiA4MUM5IDgxIDggNzIgNyA2MkM2IDUwIDQgNDIgMCA0MEMtNCA0Mi02IDUyLTcgNjRDLTggNzYtMTEgODQtMTQgODRDLTE4IDg0LTIwIDcyLTIxIDYwQy0yMiA0OC0yMSAzOC0xOSAzMFoiLz48cGF0aCBkPSJNMiAyM0M4IDIwLjYwMCAxNiAyMC42MDAgMjIgMjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjkwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8%2BPC9zdmc%2B" alt="CANDID: candidlabs.org"></a>
   <a href="mailto:Ibrahim@candidlabs.org"><img src="https://img.shields.io/badge/appointments-email-16302f?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMi41MDAgNC41MDBoMTlhMS41MDAgMS41MDAgMCAwIDEgMS41MDAgMS41MDB2MTJhMS41MDAgMS41MDAgMCAwIDEtMS41MDAgMS41MDBoLTE5QTEuNTAwIDEuNTAwIDAgMCAxIDEgMThWNmExLjUwMCAxLjUwMCAwIDAgMSAxLjUwMC0xLjUwMHpNMy42MDAgNy4yMDB2Mi4zMDBsOC40MDAgNS43MDAgOC40MDAtNS43MDBWNy4yMDBMMTIgMTIuOTAweiIvPjwvc3ZnPg%3D%3D" alt="Email me"></a>
   <a href="https://www.linkedin.com/in/ibrahim-alroudhan-a3b733216/"><img src="https://img.shields.io/badge/referrals-LinkedIn-16302f?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1MCAzLjM3MC0xLjg1MCAzLjYwMSAwIDQuMjY3IDIuMzcwIDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2EyLjA2MiAyLjA2MiAwIDAgMS0yLjA2My0yLjA2NSAyLjA2NCAyLjA2NCAwIDEgMSAyLjA2MyAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMjAwIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yMDAgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn"></a>
-  <img src="https://komarev.com/ghpvc/?username=ibrahimalroudhan-cmyk&label=waiting%20room&color=0d5c63&style=for-the-badge" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=IbraAFK&label=waiting%20room&color=0d5c63&style=for-the-badge" alt="Profile views">
 </p>
 
 ## 🦷 Presenting complaint
@@ -25,19 +25,19 @@ The main thing I'm building is **[CANDID](https://candidlabs.org)**. You give it
 - **It withholds.** If it isn't sure, it won't give you a number, and honestly I wish more software did that.
 - **It stays put.** It runs locally, so scans never leave the machine.
 
-It's research software, not a medical device. The project page has the evidence and the limitations, including the unflattering ones: **[candidlabs.org](https://candidlabs.org)**. A small slice of the code lives in **[CANDID](https://github.com/ibrahimalroudhan-cmyk/CANDID)**.
+It's research software, not a medical device. The project page has the evidence and the limitations, including the unflattering ones: **[candidlabs.org](https://candidlabs.org)**. A small slice of the code lives in **[CANDID](https://github.com/IbraAFK/CANDID)**.
 
 ## 📈 Obs
 
-<img src="https://raw.githubusercontent.com/ibrahimalroudhan-cmyk/ibrahimalroudhan-cmyk/vitals/stats.svg" width="100%" alt="Contribution vitals: total for the last twelve months, current streak, longest streak and busiest day.">
+<img src="https://raw.githubusercontent.com/IbraAFK/IbraAFK/vitals/stats.svg" width="100%" alt="Contribution vitals: total for the last twelve months, current streak, longest streak and busiest day.">
 
-<img src="https://raw.githubusercontent.com/ibrahimalroudhan-cmyk/ibrahimalroudhan-cmyk/vitals/activity.svg" width="100%" alt="Daily contributions over the last 60 days, drawn like a monitor trace on a log scale.">
+<img src="https://raw.githubusercontent.com/IbraAFK/IbraAFK/vitals/activity.svg" width="100%" alt="Daily contributions over the last 60 days, drawn like a monitor trace on a log scale.">
 
 <sub>Taken every morning by a nurse who is actually a GitHub Action. Private work is counted, but it stays under the drape.</sub>
 
 ## 😬 The last four weeks, as an OPG
 
-<img src="https://raw.githubusercontent.com/ibrahimalroudhan-cmyk/ibrahimalroudhan-cmyk/vitals/opg.svg" width="100%" alt="The last 28 days of contributions drawn as a panoramic dental radiograph. Each tooth is one day, and busier days have had more dental work: fillings, then root fillings, then crowns. The busiest day is an implant.">
+<img src="https://raw.githubusercontent.com/IbraAFK/IbraAFK/vitals/opg.svg" width="100%" alt="The last 28 days of contributions drawn as a panoramic dental radiograph. Each tooth is one day, and busier days have had more dental work: fillings, then root fillings, then crowns. The busiest day is an implant.">
 
 <sub>One tooth per day, charted 17 → 27 then 37 → 47, so today is always the lower right seven. The more I shipped, the more work the tooth has had. The busiest day gets an implant, because that tooth is not coming back. The wisdom teeth carry no data; they are impacted on principle.</sub>
 
@@ -69,7 +69,7 @@ It's research software, not a medical device. The project page has the evidence 
 
 ## 🪥 Side quests
 
-- **[fc-apple-skin](https://github.com/ibrahimalroudhan-cmyk/fc-apple-skin)**: an Obsidian plugin that makes Full Calendar Remastered look and behave like Apple Calendar. Display only. It never writes to your calendars.
+- **[fc-apple-skin](https://github.com/IbraAFK/fc-apple-skin)**: an Obsidian plugin that makes Full Calendar Remastered look and behave like Apple Calendar. Display only. It never writes to your calendars.
 - **This page.** The radiographs redraw themselves every morning from [`scripts/build.py`](scripts/build.py). Help yourself if you want an OPG of your own commit history.
 
 ## 📞 Recall

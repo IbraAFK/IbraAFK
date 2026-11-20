@@ -13,7 +13,7 @@ import os
 import sys
 import urllib.request
 
-LOGIN = os.environ.get("PROFILE_LOGIN", "ibrahimalroudhan-cmyk")
+LOGIN = os.environ.get("PROFILE_LOGIN", "IbraAFK")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
 
 BG, PANE, RULE, RULE2 = "#0c1116", "#07090c", "#293139", "#1e262e"
