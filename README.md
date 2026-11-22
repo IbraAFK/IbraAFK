@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://candidlabs.org">
-    <img src="assets/hero.svg" width="100%" alt="IbraAFK: oral surgery registrar at UCL Eastman, London. An animated scan shows an impacted lower wisdom tooth being outlined, then measured at 0.4 mm from the nerve canal.">
+    <img src="assets/hero.svg" width="100%" alt="Wisdom teeth, measured. An animated scan shows an impacted lower wisdom tooth being outlined, then measured at 0.4 mm from the nerve canal.">
   </a>
 </div>
 
@@ -13,13 +13,11 @@
 
 ## 🦷 Presenting complaint
 
-Hi, I'm Ibrahim. Oral surgery registrar at UCL Eastman in London. By day I take out wisdom teeth, by night I write code that measures how close they sit to the nerve.
-
-The tooth in the scan up there is 0.4 mm from the canal. That is the kind of number that keeps a surgeon up at night, so I figured I might as well be up writing software about it.
+Hi, I'm Ibrahim. The tooth in the scan up there is 0.4 mm from the nerve. That is the kind of number that keeps a surgeon up at night, so I figured I might as well be up writing software about it.
 
 ## 🩻 The main procedure: CANDID
 
-The main thing I'm building is **[CANDID](https://candidlabs.org)**. You give it a CBCT scan and it finds the lower third molar and the nerve canal, then measures the gap in millimetres.
+You give **[CANDID](https://candidlabs.org)** a CBCT scan and it finds the lower third molar and the nerve canal, then measures the gap in millimetres.
 
 - **It measures.** Third molar to inferior alveolar canal, in mm, with the anatomy graded.
 - **It withholds.** If it isn't sure, it won't give you a number, and honestly I wish more software did that.
@@ -39,7 +37,7 @@ It's research software, not a medical device. The project page has the evidence 
 
 <img src="https://raw.githubusercontent.com/IbraAFK/IbraAFK/vitals/opg.svg" width="100%" alt="The last 28 days of contributions drawn as a panoramic dental radiograph. Each tooth is one day, and busier days have had more dental work: fillings, then root fillings, then crowns. The busiest day is an implant.">
 
-<sub>One tooth per day, charted 17 → 27 then 37 → 47, so today is always the lower right seven. The more I shipped, the more work the tooth has had. The busiest day gets an implant, because that tooth is not coming back. The wisdom teeth carry no data; they are impacted on principle.</sub>
+<sub>Today is always the lower right seven. The wisdom teeth carry no data; they are impacted on principle.</sub>
 
 ## 🧰 On the tray
 
@@ -71,10 +69,6 @@ It's research software, not a medical device. The project page has the evidence 
 
 - **[fc-apple-skin](https://github.com/IbraAFK/fc-apple-skin)**: an Obsidian plugin that makes Full Calendar Remastered look and behave like Apple Calendar. Display only. It never writes to your calendars.
 - **This page.** The radiographs redraw themselves every morning from [`scripts/build.py`](scripts/build.py). Help yourself if you want an OPG of your own commit history.
-
-## 📞 Recall
-
-Say hi: [Ibrahim@candidlabs.org](mailto:Ibrahim@candidlabs.org) · [LinkedIn](https://www.linkedin.com/in/ibrahim-alroudhan-a3b733216/) · [candidlabs.org](https://candidlabs.org)
 
 <details>
 <summary>📋 Post-op instructions</summary>

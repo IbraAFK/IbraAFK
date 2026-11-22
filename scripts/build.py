@@ -17,7 +17,7 @@ LOGIN = os.environ.get("PROFILE_LOGIN", "IbraAFK")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
 
 BG, PANE, RULE, RULE2 = "#0c1116", "#07090c", "#293139", "#1e262e"
-INK, DIM, FAINT = "#e7ebef", "#8d98a3", "#616b75"
+INK, DIM, FAINT = "#e7ebef", "#9aa5af", "#7f8a95"
 TEAL, GREEN, AMBER, RED = "#5ecfc6", "#71c176", "#d3a63f", "#e5827a"
 SANS = '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif'
 MONO = 'ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace'
@@ -125,11 +125,11 @@ def draw_stats(total, days):
         out.append(
             f'<g transform="translate({x} 0)">'
             f'<rect x=".5" y=".5" width="197" height="139" rx="12" fill="{BG}" stroke="{RULE2}"/>'
-            f'<text x="18" y="32" class="mono dim" font-size="10" letter-spacing="1.1">{label}</text>'
+            f'<text x="18" y="32" class="mono dim" font-size="12" letter-spacing=".6">{label}</text>'
             f'<text x="17" y="86" class="sans {colour}" font-size="40" font-weight="700" letter-spacing="-1">{value}'
-            + (f'<tspan class="mono dim" font-size="12" font-weight="400" letter-spacing="0" dx="7">{unit}</tspan>' if unit else "")
+            + (f'<tspan class="mono dim" font-size="14" font-weight="400" letter-spacing="0" dx="7">{unit}</tspan>' if unit else "")
             + "</text>"
-            f'<text x="18" y="116" class="mono faint" font-size="10.500">{caption}</text>'
+            f'<text x="18" y="116" class="mono faint" font-size="12.500">{caption}</text>'
             "</g>"
         )
     label = (
@@ -160,7 +160,7 @@ def draw_activity(days, span=60):
     grid = "".join(
         f'<path d="M{x0} {y1 - level(t) * (y1 - y0):.1f}H{x1}" stroke="{RULE2}" stroke-width="1"/>'
         f'<text x="{x0 - 8}" y="{y1 - level(t) * (y1 - y0) + 3.5:.1f}" text-anchor="end" '
-        f'class="mono faint" font-size="9.500">{num(t)}</text>'
+        f'class="mono faint" font-size="12">{num(t)}</text>'
         for t in ticks
     )
     mid = recent[len(recent) // 2][0]
@@ -178,8 +178,8 @@ def draw_activity(days, span=60):
     )
     body = (
         f'<rect x=".5" y=".5" width="839" height="209" rx="12" fill="{BG}" stroke="{RULE2}"/>'
-        f'<text x="24" y="30" class="mono dim" font-size="10" letter-spacing="1.1">ACTIVITY · LAST {len(recent)} DAYS</text>'
-        f'<text x="816" y="30" text-anchor="end" class="mono dim" font-size="10.500">'
+        f'<text x="24" y="30" class="mono dim" font-size="12" letter-spacing="1">ACTIVITY · LAST {len(recent)} DAYS</text>'
+        f'<text x="816" y="30" text-anchor="end" class="mono dim" font-size="12.500">'
         f'rhythm: sinus-ish · median <tspan class="green">{median}</tspan> a day · peak {num(top)} · log scale</text>'
         f"{grid}"
         f'<g clip-path="url(#reveal)">'
@@ -188,9 +188,9 @@ def draw_activity(days, span=60):
         f'stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>'
         f'<circle class="pulse" cx="{lx:.1f}" cy="{ly:.1f}" r="4" fill="{GREEN}"/>'
         "</g>"
-        f'<text x="{x0}" y="190" class="mono faint" font-size="9.500">{day(recent[0][0])}</text>'
-        f'<text x="{(x0 + x1) / 2}" y="190" text-anchor="middle" class="mono faint" font-size="9.500">{day(mid)}</text>'
-        f'<text x="{x1}" y="190" text-anchor="end" class="mono faint" font-size="9.500">today</text>'
+        f'<text x="{x0}" y="192" class="mono faint" font-size="12">{day(recent[0][0])}</text>'
+        f'<text x="{(x0 + x1) / 2}" y="192" text-anchor="middle" class="mono faint" font-size="12">{day(mid)}</text>'
+        f'<text x="{x1}" y="192" text-anchor="end" class="mono faint" font-size="12">today</text>'
     )
     label = (f"Daily contributions over the last {len(recent)} days on a log scale: "
              f"median {median} a day, peak {num(top)}")
@@ -451,7 +451,7 @@ def draw_opg(days):
         if i == best and counts[i]:
             work.append(f'<g transform="{place}">{implant(kind)}</g>')
             notes.append(f'<text x="{x:.0f}" y="{y + (apex + 14 if not upper else apex - 2):.0f}" text-anchor="middle" '
-                         f'class="mono amber" font-size="9.500">{day(recent[i][0])}</text>')
+                         f'class="mono amber" font-size="13">{day(recent[i][0])}</text>')
             continue
         teeth.append(f'<g transform="{place}">{tooth_art(kind)}</g>')
         done = dental_work(kind, level(i))
@@ -462,12 +462,12 @@ def draw_opg(days):
     t = TEETH[kind]
     notes.append(f'<g transform="{place}"><path class="pulse" d="{t["top"]}{t["roots"]}" fill="none" '
                  f'stroke="{TEAL}" stroke-width="2.2"/></g>'
-                 f'<text x="{x:.0f}" y="{y + t["apex"] + 12:.0f}" text-anchor="middle" class="mono teal" font-size="9.500">today</text>')
+                 f'<text x="{x:.0f}" y="{y + t["apex"] + 12:.0f}" text-anchor="middle" class="mono teal" font-size="13">today</text>')
 
     q1, q2, q3 = cuts
     if rest and len(rest) >= 4:
-        key = (f"filling = 1–{q1 - 1} contributions · large filling = {q1}–{q2 - 1} · "
-               f"filling + root filling = {q2}–{q3 - 1} · crown + root filling = {q3}+")
+        key = (f"filling 1–{q1 - 1} · large filling {q1}–{q2 - 1} · "
+               f"root filling {q2}–{q3 - 1} · crown {q3}+  (contributions a day)")
     else:
         key = "more work that day, more work on the tooth"
     off = sum(1 for c in counts if not c)
@@ -494,8 +494,8 @@ def draw_opg(days):
     )
     body = (
         f'<rect x=".5" y=".5" width="839" height="497" rx="12" fill="{BG}" stroke="{RULE2}"/>'
-        f'<text x="24" y="29" class="mono dim" font-size="10" letter-spacing="1.1">PANORAMIC · LAST 28 DAYS · ONE TOOTH PER DAY</text>'
-        f'<text x="816" y="29" text-anchor="end" class="mono dim" font-size="10.500">'
+        f'<text x="24" y="29" class="mono dim" font-size="12" letter-spacing="1">PANORAMIC · LAST 28 DAYS · ONE TOOTH PER DAY</text>'
+        f'<text x="816" y="29" text-anchor="end" class="mono dim" font-size="12.500">'
         f'<tspan class="teal">{num(sum(counts))}</tspan> contributions · {day(recent[0][0])} → today</text>'
         f'<rect x="16" y="44" width="808" height="372" rx="10" fill="#040608"/>'
         f'<g clip-path="url(#pane)"><g transform="translate(420 222)">'
@@ -509,14 +509,12 @@ def draw_opg(days):
         '<rect x="16" y="44" width="808" height="372" filter="url(#grain)" opacity=".14"/>'
         '<rect x="16" y="44" width="808" height="372" fill="url(#vig)"/></g>'
         f'<rect x="16" y="44" width="808" height="372" rx="10" fill="none" stroke="{RULE}"/>'
-        f'<text x="24" y="437" class="mono dim" font-size="10">charted 17 → 27, then 37 → 47 · '
-        + (f"sound tooth = day off ({off})" if off else "no sound teeth, so no days off")
+        f'<text x="24" y="442" class="mono dim" font-size="12.500">one tooth per day, 17 → 27 then 37 → 47 · '
+        + (f"sound tooth = day off ({off})" if off else "no days off")
         + "</text>"
-        f'<text x="24" y="453" class="mono dim" font-size="10">{key}</text>'
-        f'<text x="24" y="469" class="mono dim" font-size="10"><tspan class="amber">implant</tspan> = busiest day, '
-        f'{day(recent[best][0])} ({num(counts[best])} contributions). the tooth did not survive.</text>'
-        f'<text x="24" y="485" class="mono faint" font-size="10">the 8s carry no data. the 48 is lying on the IAN canal '
-        f'and CANDID would like a CBCT.</text>'
+        f'<text x="24" y="463" class="mono dim" font-size="12.500">{key}</text>'
+        f'<text x="24" y="484" class="mono dim" font-size="12.500"><tspan class="amber">implant</tspan> = busiest day, '
+        f'{day(recent[best][0])} ({num(counts[best])}). the tooth did not survive.</text>'
     )
     label = (
         f"The last 28 days of contributions drawn as a panoramic dental radiograph, one tooth per day: "
