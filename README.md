@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://candidlabs.org">
-    <img src="assets/hero.svg" width="100%" alt="Wisdom teeth, measured. An animated scan shows an impacted lower wisdom tooth being outlined, then measured at 0.4 mm from the nerve canal.">
+    <img src="assets/banner.svg" width="100%" alt="Wisdom teeth, measured. An animated scan shows an impacted lower wisdom tooth being outlined, then measured at 0.4 mm from the nerve canal.">
   </a>
 </div>
 
