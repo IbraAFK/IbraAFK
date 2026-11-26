@@ -1,9 +1,3 @@
-<div align="center">
-  <a href="https://candidlabs.org">
-    <img src="assets/banner.svg" width="100%" alt="Wisdom teeth, measured. An animated scan shows an impacted lower wisdom tooth being outlined, then measured at 0.4 mm from the nerve canal.">
-  </a>
-</div>
-
 ## 🦷 Presenting complaint
 
 Hi, I'm Ibrahim. The tooth in the scan up there is 0.4 mm from the nerve. That is the kind of number that keeps a surgeon up at night, so I figured I might as well be up writing software about it.
@@ -26,11 +20,6 @@ It's research software, not a medical device. The project page has the evidence 
 
 <sub>Taken every morning by a nurse who is actually a GitHub Action. Private work is counted, but it stays under the drape.</sub>
 
-## 😬 The last four weeks, as an OPG
-
-<img src="https://raw.githubusercontent.com/IbraAFK/IbraAFK/vitals/opg.svg" width="100%" alt="The last 28 days of contributions drawn as a panoramic dental radiograph. Each tooth is one day, and busier days have had more dental work: fillings, then root fillings, then crowns. The busiest day is an implant.">
-
-<sub>Today is always the lower right seven. The wisdom teeth carry no data; they are impacted on principle.</sub>
 
 ## 🧰 On the tray
 
